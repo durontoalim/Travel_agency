@@ -1,0 +1,832 @@
+/*=====================*/
+/* BASIC SETUP */
+/*=====================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    font-family:'Montserrat', sans-serif;
+}
+/*=====================*/
+/* CONTAINER */
+/*=====================*/
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+section{
+    padding: 80px 0;
+}
+ul li{
+    list-style: none;
+    float: left;
+}
+i{
+    color: #FFDD00;
+    margin-right: 10px;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: none;
+    color: #ff5200;
+}
+p{
+    font-size: 10px;
+    margin-bottom: 30px;
+}
+span{
+    font-size: 15px;
+}
+h1{
+    font-size: 65px;
+    margin-top: 120px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 10px;
+    font-weight: 600;
+}
+h4{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+h5{
+    font-size: 15px;
+    font-weight: 600;
+}
+.btn{
+    color: black;
+}
+/*=====================*/
+/* HEADER SECTION */
+/*=====================*/
+#header-section{
+    width: 100%;
+    height: 100vh;
+    background: url(img/Travel-Tour-Booking-Website-Free-PSD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: center center;
+    background-position:fixed;
+    color: white;
+    padding: 0 0;
+}
+.nav-bar{
+    background: linear-gradient(#00000026,#00000054);
+    width: 100%;
+    height: 25vh;
+}
+.nav-bar1{
+    padding: 30px 0;
+}
+.phone{
+    float: left;
+    width: 250px;
+    padding: 10px 0;
+}
+.email{
+    float: left;
+    width: 500px;
+    padding: 10px 0;
+}
+.social-item{
+    float: left;
+    width: 140px;
+    padding: 10px 0;
+}
+.login-signup{
+    float: right;
+    display: inline-block;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.log-in {
+    width: 80px;
+    float: left;
+}
+.sign.up {
+    width: 100px;
+    float: left;
+}
+/* NAV BAR 2 SECTION */
+.nav-bar2{
+    padding: 20px 0;
+}
+.company-logo{
+    float: left;
+    width: 500px;
+}
+.nav-menu2{
+    text-transform: uppercase;
+    float: right;
+    padding-top: 15px;
+}
+.nav-menu2 a {
+    margin: 20px 10px;
+    padding: 20px 0;
+    font-size: 15px;
+}
+/* HEADER 2nd SECTION */
+.header-2nd{
+    text-align: center;
+}
+.btn-shape{
+    padding: 7px 35px;
+    font-size: 20px;
+    font-weight: 600;
+}
+/*=====================*/
+/* FIND HOTELS SECTION */
+/*=====================*/
+.find-hotels{
+    background: #EFD738;
+    color: black;
+    width: 100%;
+    height: 280px;
+    margin: 0 0;
+    padding: 30px;
+}
+.f-hotels{
+    margin-top: 0px;
+}
+.box-f{
+    margin-top: 50px;
+}
+.fnd-htl-smt{
+    float: left;
+}
+.fnd-htl-smt input{
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 150px;
+    height: 30px;
+}
+.fnd-htl-smt span{
+    margin-left: 15px;
+}
+#button-fx{
+    margin-top: 30px;
+    margin-left: 20px;
+    font-weight: 600;
+}
+/*=====================*/
+/* We ARE EXPLOORE SECTION */
+/*=====================*/
+.trusted-exploore{
+    padding:0;
+    margin: 0;
+    overflow: hidden;
+}
+.train{
+    padding:0;
+    margin: 0;
+}
+.train img{
+    width: 50%;
+    height:600px;
+    float: left;
+    padding:0;
+    margin: 0;
+}
+.{
+    margin: auto 10px;
+    
+}
+.trusted-2001 h3{
+    text-align: justify;
+    margin-top: 100px;
+}
+.trusted-2001 h4{
+    font-size: 30px;
+    text-align: justify;
+}
+.container-train-rt p{
+    font-weight: 600;
+    font-size: 12px;
+    display: inline-flex;
+}
+.trusted-2001 p{
+    margin-top: 50px;
+}
+.trn-rt{
+    
+}
+.trn-rt{
+    background-image: url(../img/train-right-pic.jpg);
+    width: 50%;
+    height: 600px;
+    float: right;
+    padding:0;
+    margin: 0;
+}
+.container-train-rt{
+    margin: auto 60px;
+    text-align: justify;
+}
+.right-icon-img {
+    margin-top: 5px;
+    height: 25px;
+    width: 20px;
+    margin-right: 18px;
+}
+/*=====================*/
+/* SERVICE SECTION */
+/*=====================*/
+.service-sec{
+    padding: 30px 0;
+    overflow: hidden;
+}
+.ser-section{
+    margin: 40px 0;
+}
+.ser-section h3{
+}
+.icon-par{
+    width: 100%;
+    float: left;
+}
+.icon-par{
+    width: 50%;
+    margin-top: 15px;
+}
+.service-icon1{
+    float: left;
+    margin-top: 5px;
+    margin-right: 15px;
+}
+.service-icon1 img{
+    height: 30px;
+    width: 30px;
+}
+.service-icon1-p p{
+    display: flex;
+}
+/*=====================*/
+/* TRUSTED SINCE SECTION */
+/*=====================*/
+.trusted-since{
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+    margin: 0;
+    padding:0;
+}
+.trusted-since-layer1{
+    padding: 50px 0;
+    width: 100%;
+    height: 410px;
+    background:linear-gradient(#00000099,#000000ba), url(img/Place-Your-Image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    
+}
+.trusted-since-layer2{
+    background: #00A4FF;
+    width: 100%;
+    height: 250px;
+}
+.trst-sc h3{
+    color: white;
+}
+.trst-sc h5{
+    text-align: center;
+    color: white;
+}
+/*   TRIP  1  */
+
+.trip{
+    position: absolute;
+    background: white;
+    color: black;
+    width: 350px;
+    height: 400px;
+    border-radius: 10px;
+    margin-top: -200px;
+}
+.trip-wrapar{
+}
+.low-budget i {
+    margin-left: 160px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: black;
+    font-size: 50px;
+}
+.low-budget2{
+    margin-top: 150px;
+}
+.low-budget h5{
+    font-size: 25px;
+    text-align: center;
+    
+}
+.low-budget2 ul li{
+    font-size: 15px;
+}
+.low-budget2 .right-icon-img {
+    margin-left: 90px;
+}
+.yellow-bg {
+    background: #F0D839;
+    color: black;
+    position: absolute;
+    border-radius: 2px;
+    width: 370px;
+    height: 65px;
+    margin-top: -35px;
+    margin-left: -25px;
+    text-align: center;
+}
+.yellow-bg h6{
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 18px;
+}
+/*   TRIP  2  */
+.trip-wrapar2{
+    margin: 0 35%;
+}
+/*   TRIP  3  */
+.trip-wrapar3{
+    margin: 0 70%;
+}
+/*=====================*/
+/* TRUSTED SINCE 2 SECTION */
+/*=====================*/
+.trusted-s-2{
+    width: 100%;
+    height: 650px;
+    overflow: hidden;
+}
+.tst-2{
+    width: 40%;
+    float: left;
+}
+.tst-2 img{
+    width: 400px;
+    height: 480px;
+}
+.tst-2-right{
+    width: 60%;
+    float: right;
+    padding: 0 25px;
+}
+
+.tst-2-right h3{
+    text-align: justify;
+}
+.tst-2-right h5{
+    font-size: 25px;
+}
+.tst-2-right p{
+    margin-top: 50px;
+    font-size: 15px;
+}
+.flight-car img {
+    width: 500px;
+    height: 70px;
+    margin-top: 30px;
+}
+.tst-2-right button{
+    margin-top: 20px;
+}
+
+/*=====================*/
+/* PACK AND GO SECTION */
+/*=====================*/
+.pack-and-go{
+    width: 100%;
+    height: 750px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.pack-and-go-layer1{
+    background: url(img/bitch-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 550px;
+}
+.p-a-g{
+    position: relative;
+}
+.p-a-g-layer2{
+    background: #00A4FF;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.p-a-g h3{
+    margin: 0px 0;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.p-a-g h5{
+    margin: 0px 0;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 20px;
+    font-weight: 500;
+}
+.p-a-g-wrapar {
+    position: absolute;
+    width: 290px;
+    height: 400px;
+    border-radius: 10px;
+    background: white;
+    margin-top: -300px;
+    margin-left: 150px;
+}
+.p-a-g-image{
+    background: url(img/menu1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 290px;
+    height: 200px;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.p-a-g-menu1 span {
+    margin-left: 75px;
+    padding: 0px 0;
+    font-size: 17px;
+    font-weight: 500;
+}
+h3.pag-h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+p.pag-p {
+    text-align: center;
+    margin-bottom: 10px;
+}
+span.pag-dlr {
+    margin-left: 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+button.btn.bg-warning.btn-shape {
+    font-size: 15px;
+    margin-left: 57px;
+    margin-top: 10px;
+}
+.p-a-g-wrapar2{
+    position: absolute;
+    width: 300px;
+    height: 470px;
+    border-radius: 10px;
+    background: white;
+    margin-top: -320px;
+    margin-left: 32%;
+}
+.p-a-g-image2{
+    background: url(img/menu2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 300px;
+    height: 200px;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.p-a-g-wrapar3{
+    position: absolute;
+    width: 290px;
+    height: 400px;
+    border-radius: 10px;
+    background: white;
+    margin-top: -300px;
+    margin-left: 53%;
+}
+.p-a-g-image3{
+    background: url(img/menu3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 290px;
+    height: 200px;
+    display: block;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/*=====================*/
+/* GO EXPLOORE SECTION */
+/*=====================*/
+.go-exploore{
+    background: url(img/since-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.go-exploore-h h4{
+    font-weight: bold;
+}
+.go-exploore-h h6{
+    font-weight: 600;
+    text-align: center;
+}
+.one-go{
+    width: 350px;
+    height: 500px;
+    background: white;
+    border-radius: 10px;
+    float: left;
+    margin: 0 10px;
+    
+}
+.go-exploore-h {
+    padding-bottom: 51px;
+}
+.go-image img{
+    width: 350px;
+    height: 200px; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+}
+.go-h3 {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 100px;
+}
+p.go-p {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+}
+.go-absulatee{
+    position: absolute;
+    margin-top: -32px;
+    margin-left: 40px;
+}
+/*=====================*/
+/* BOOK NOW SECTION */
+/*=====================*/
+.book-now{
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+.bk-image{
+    float: left;
+    position: relative;
+}
+.bk-image img{
+    width: 550px;
+    height: 450px;
+    margin-left: 10px;
+}
+.bk-img-right-bx {
+    position: absolute;
+    background: white;
+    width: 450px;
+    height: 370px;
+    border-radius: 10px;
+    border: 1px solid #D8D8D8;
+    margin-top: 95px;
+    margin-left: 470px;
+}
+.bx-bk {
+    margin-left: 20px;
+}
+h3.bk-h3 {
+    text-align: justify;
+    font-weight: 900;
+    font-size: 25px;
+}
+span.bk-7days {
+    font-weight: 500;
+    font-size: 17px;
+}
+.bk-logo li{
+    padding: 0 20px;
+    margin-top: 10px;
+}
+.bk-p{
+    margin-top: 80px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.bx-bk span{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 70px;
+}
+/*=====================*/
+/* REVIEW SECTION */
+/*=====================*/
+.customer-reviews{
+    background: url(img/10-reviews-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    height: 500px;
+}
+.p-center{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 12px;
+    font-style: italic;
+}
+.h5-center{
+    text-align: center;
+}
+img.review-star {
+    margin-left: 470px;
+}
+.reivew-logo-p{
+    margin-top: 30px;
+}
+.review-img{
+    margin-left: 43%;
+}
+.review-img img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    float: left;
+}
+.d-web{
+    margin-top:50px;
+    margin-left: 560px;
+}
+.d-web h4{
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 20px;
+}
+.d-web span{
+    font-size: 12px;
+    text-align: justify;
+}
+/*=====================*/
+/* JOURNEY SECTION */
+/*=====================*/
+.journey-section{
+    background: url(img/contacts-us-BG.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.journey-sec h4{
+    font-weight: bold;
+}
+.journey-sec h5{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 400;
+}
+/*=====================*/
+/* FOOTER UP SECTION */
+/*=====================*/
+.footer-up{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.f-up{
+    margin-left: 40px;
+}
+.email-sec-f{
+    float: left;
+    width: 33%;
+}
+.e-logo{
+    float: left;
+    margin-top: 15px;
+}
+.e-logo img{
+}
+.e-text{
+    float: left;
+    margin-left: 15px;
+}
+.e-text h4{
+    text-align: justify;
+    font-size: 17px;
+}
+.social-footer-up{
+    margin-left: 400px;
+    margin-top: 60px;
+    
+    float: left;
+}
+.b-s-f-up li i{
+    color: black;
+    margin-top: 13px;
+    margin-left: 6px;
+}
+.b-s-f-up{
+    float: left;
+    border-radius:50%;
+    border: 2px solid #ff5200;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    cursor: pointer;
+    
+}
+.b-s-f-up2{
+    float: left;
+    border-radius:50%;
+    border: 2px solid #ff5200;
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+    cursor: pointer;
+    
+}
+.b-s-f-up2 li i{
+    color: black;
+    margin-top: 13px;
+    margin-left: 10px;
+}
+.social-footer-up li{
+    margin-left: 5px;
+}
+.social-footer-up i{
+    font-size: 20px;
+}
+.icon-clearr i{
+    margin-left: 5px;
+}
+.fa-map-marked-alt{
+    font-size: 40px;
+}
+.b-s-f-up:hover{
+    background: black;
+    color: white;
+}
+.b-s-f-up2:hover{
+    background: black;
+    color: white;
+}
+.b-s-f-up i:hover{
+    color: white;
+}
+.b-s-f-up2 i:hover{
+    color: white;
+}
+.location-logo{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -225px;
+}
+.location-logo img{
+    
+}
+/*=====================*/
+/* FOOTER SECTION */
+/*=====================*/
+footer{
+    background: #F0D839;
+    color: black;
+    width: 100%;
+    height: 100px;
+    padding: 5px 0;
+}
+.footer-p{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 20px;
+}
